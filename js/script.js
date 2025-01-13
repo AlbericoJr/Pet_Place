@@ -21,6 +21,7 @@ const scrollRevealOption = {
   duration: 1000,	
 }
 
+// header
 ScrollReveal().reveal(".header__content h4", {
   ...scrollRevealOption,
 });
@@ -44,3 +45,8 @@ ScrollReveal().reveal(".header__btn", {
   delay: 2000,
 });
 
+// card
+ScrollReveal().reveal(".intro__card", {
+  ...scrollRevealOption,
+  interval: 500,
+});
