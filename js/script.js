@@ -50,3 +50,29 @@ ScrollReveal().reveal(".intro__card", {
   ...scrollRevealOption,
   interval: 500,
 });
+
+// about
+ScrollReveal().reveal(".about__row:nth-child(3) .about__image img, .about__row:nth-child(5) .about__image img", {
+  ...scrollRevealOption,
+  origin: "left",
+});
+
+ScrollReveal().reveal(".about__row:nth-child(4) .about__image img ", {
+  ...scrollRevealOption,
+  origin: "right",
+});
+
+ScrollReveal().reveal(".about__content span", {
+  ...scrollRevealOption,
+  delay: 500,
+});
+
+ScrollReveal().reveal(".about__content h4", {
+  ...scrollRevealOption,
+  delay: 1000,
+});
+
+ScrollReveal().reveal(".about__content p", {
+  ...scrollRevealOption,
+  delay: 1500,
+});
