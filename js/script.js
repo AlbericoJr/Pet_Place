@@ -88,3 +88,10 @@ ScrollReveal().reveal(".service__card", {
   duration: 1000,
   interval: 500,
 });
+
+// Swiper
+const swiper = new Swiper(".swiper", {
+  slidesPerView: 3,
+  spaceBetween: 20,
+  loop: true,
+})
