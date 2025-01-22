@@ -95,3 +95,9 @@ const swiper = new Swiper(".swiper", {
   spaceBetween: 20,
   loop: true,
 })
+
+// instagram
+ScrollReveal().reveal(".instagram__grid img", {
+  duration: 1000,
+  interval: 500,
+});
